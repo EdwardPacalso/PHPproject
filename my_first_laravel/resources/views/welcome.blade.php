@@ -889,11 +889,13 @@
                 Laravel
             </div>
             <div class="links">
-                <a href="https://laravel.com/about">About</a>
-                <a href="https://laravel.com/contact">Contact</a>
-                <a href="https://laravel.com/learnmore">Learn More</a>
-                <a href="https://laravel.com/blogs">Blogs</a>
-                <a href="https://laravel.com/vids">Video</a>
+                <a href="/blogs">Blogs</a>
+                <a href="/vids">Videos</a>
+                <a href="/learnmore">Learn More</a>
+                <a href="/about">About Us</a>
+                <a href="/contact">Contact Us</a>
+
+
 
             </div>
         </div>
