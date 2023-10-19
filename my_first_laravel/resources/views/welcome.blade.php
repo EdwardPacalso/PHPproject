@@ -14,7 +14,7 @@
     <!-- Styles -->
     <style>
         /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
-        *,
+        /* *,
         ::after,
         ::before {
             box-sizing: border-box;
@@ -26,23 +26,61 @@
         ::after,
         ::before {
             --tw-content: ''
-        }
+        } */
 
-        html {
-            line-height: 1.5;
-            -webkit-text-size-adjust: 100%;
-            -moz-tab-size: 4;
-            tab-size: 4;
-            font-family: Figtree, sans-serif;
-            font-feature-settings: normal
-        }
-
+        html,
         body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
+            height: 100vh;
             margin: 0;
-            line-height: inherit
         }
 
-        hr {
+        .full-height {
+            height: 100vh;
+        }
+
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .position-ref {
+            position: relative;
+        }
+
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .title {
+            font-size: 84px;
+        }
+
+        .links>a {
+            color: #636b6f;
+            padding: 0 25px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .m-b-md {
+            margin-bottom: 30px;
+        }
+
+        /* hr {
             height: 0;
             color: inherit;
             border-top-width: 1px
@@ -826,12 +864,12 @@
             .lg\:p-8 {
                 padding: 2rem
             }
-        }
+        } */
     </style>
 </head>
 
 <body class="antialiased">
-    <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+    <div class="flex-center position-ref full-height">
         @if (Route::has('login'))
         <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
             @auth
@@ -854,8 +892,9 @@
                 <a href="https://laravel.com/about">About</a>
                 <a href="https://laravel.com/contact">Contact</a>
                 <a href="https://laravel.com/learnmore">Learn More</a>
-                <a href="https://laravel.com/login">Login</a>
                 <a href="https://laravel.com/blogs">Blogs</a>
+                <a href="https://laravel.com/vids">Videos</a>
+
             </div>
         </div>
 

@@ -29,8 +29,8 @@ Route::get('learnmore', function () {
     return view('learnmore');
 });
 
-Route::get('login', function () {
-    return view('login');
+Route::get('vids', function () {
+    return view('vids');
 });
 
 Route::get('blogs', function () {
