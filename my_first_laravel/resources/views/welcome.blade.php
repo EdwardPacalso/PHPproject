@@ -893,7 +893,7 @@
                 <a href="https://laravel.com/contact">Contact</a>
                 <a href="https://laravel.com/learnmore">Learn More</a>
                 <a href="https://laravel.com/blogs">Blogs</a>
-                <a href="https://laravel.com/vids">Videos</a>
+                <a href="https://laravel.com/vids">Video</a>
 
             </div>
         </div>
